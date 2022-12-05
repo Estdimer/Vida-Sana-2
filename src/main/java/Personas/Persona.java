@@ -15,7 +15,8 @@ public abstract class Persona {
     private String contrasena;
     private int edad;
 
-    public abstract String imprimirTipo();
+    public abstract String imprimirTipo();  
+    public abstract String toCSV();
 
     public Persona(String usuario, String nombre, String correo, String contrasena, int edad) {
         this.usuario = usuario;
